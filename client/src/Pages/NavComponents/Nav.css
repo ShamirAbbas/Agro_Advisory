@@ -1,0 +1,173 @@
+.pmd-logo {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height proportionally if needed */
+    border-radius: 60%; /* Make the image a circle */
+    margin: 0 0 0 25px;
+  }
+.homeicon{
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height proportionally if needed */
+    border-radius: 40%; /* Make the image a circle */
+}
+.bellicon{
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height proportionally if needed */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover;
+}
+body{
+  background-image: url("../Images/backgorund.jfif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)); */
+    /* Example: Reduce opacity to enhance content visibility */
+}
+
+h5, p {
+  color: white;  /* Example: White text for better contrast on dark background */
+}
+
+.large-input {
+    height: 100px; /* Adjust height as needed */
+  }
+
+  .my_custom_toast {
+  background-color: #f0f0f0; /* Background color */
+  color: #333; /* Text color */
+  border: 1px solid #ddd; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 14px; /* Font size */
+}
+
+/* Display Page Code */
+.table{
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.rounded-table {
+  border-radius: 0.25rem; /* Set your desired corner roundness */
+}
+.text-white{
+  color: white;
+}
+
+.form-select {
+  position: relative; 
+}
+
+.form-select::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border-width: 0 5px 5px 0;
+  border-color: #ccc transparent transparent #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.form-select[aria-expanded="true"]::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* add new button in home.js */
+
+/* Popup form for update  */
+.popup {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  }
+  
+  .popup-inner {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  padding-top: 20%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  width: 70%;
+  }
+  
+  .popup-inner h2 {
+  margin-top: 0;
+  }
+  
+  .popup-inner label {
+  display: block;
+  margin-bottom: 10px;
+  }
+  
+  .popup-inner input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  }
+  
+  .popup-inner button[type="submit"],
+  .popup-inner button[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  
+  .popup-inner button[type="submit"]:hover,
+  .popup-inner button[type="button"]:hover {
+  background-color: #45a049;
+  }
+  
+  .popup-inner button[type="submit"] {
+  margin-top: 20px;
+  }
+  
+  .popup-inner button[type="button"] {
+  margin-top: 20px;
+  background-color: #f44336;
+  }
+  
+  .popup-inner button[type="button"]:hover {
+  background-color: #da190b;
+  }
+  
+  .popup-inner button[type="submit"]:disabled {
+  background-color: #bfbfbf;
+  color: #ffffff;
+  cursor: not-allowed;
+  }
+  
+  .popup-inner button[type="button"]:disabled {
+  background-color: #bfbfbf;
+  color: #ffffff;
+  cursor: not-allowed;
+  }
+
+  .dropdown{
+    margin-left: 10%;
+  }
+
+  
+
+ 
